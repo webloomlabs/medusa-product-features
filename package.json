@@ -1,6 +1,6 @@
 {
   "name": "@webloomlabs/product-features",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Medusa v2 plugin to manage a global catalog of product features (title, subtitle, icon) and assign them, ordered, to products.",
   "author": "WebLoomLabs",
   "license": "MIT",
