@@ -6,6 +6,16 @@ Adds a reusable **product features** concept to Medusa — the icon + title + su
 - On each product page, a **Features** widget lets admins pick features from the catalog and **order them per product**.
 - Storefronts read a product's ordered features through a public store API route.
 
+## Screenshots
+
+**Global feature catalog** — managed from Settings → Product Features (create, edit, delete features with title, subtitle, and icon):
+
+![Global feature catalog under Settings](https://raw.githubusercontent.com/webloomlabs/medusa-product-features/main/screenshots/globle-features-list.png)
+
+**Per-product assignment** — pick features from the catalog and order them per product (reorder with the arrows, remove, or add from Available):
+
+![Assigning and ordering features on a product](https://raw.githubusercontent.com/webloomlabs/medusa-product-features/main/screenshots/feature-assignment.png)
+
 ## Architecture
 
 - **Module** `productFeatures` (`src/modules/product-features`) — a single `Feature` data model (`title`, `subtitle`, `icon`).
